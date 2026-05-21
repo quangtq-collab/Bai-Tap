@@ -10,7 +10,7 @@ public class Library {
     public void addBook(Book book) { books.add(book); }
     public void addReader(Reader reader) { readers.add(reader); }
 
-    // Nghiệp vụ 3.1 & 3.3: Mượn sách có ràng buộc
+    // Nghiệp vụ 3.1 & 3.3: Mượn sách có ràng buộc (Giữ nguyên logic gốc)
     public boolean borrowBook(String slipId, Reader reader, Book book, LocalDate borrowDate, LocalDate dueDate) {
         // Ràng buộc 1: Kiểm tra số lượng kho
         if (!book.isAvailable()) {
@@ -26,9 +26,10 @@ public class Library {
             }
         }
 
+        // Sử dụng tính Đa hình: Tự động gọi hàm getMaxBorrowLimit của Student hoặc Lecturer tương ứng
         if (currentBorrowedCount >= reader.getMaxBorrowLimit()) {
             System.out.println("-> Mượn thất bại: Độc giả " + reader.getFullName() +
-                    " (" + reader.getType() + ") đã đạt giới hạn mượn tối đa (" +
+                    " đã đạt giới hạn mượn tối đa (" +
                     reader.getMaxBorrowLimit() + " cuốn).");
             return false;
         }
@@ -41,7 +42,7 @@ public class Library {
         return true;
     }
 
-    // Nghiệp vụ 3.2: Trả sách và tính tiền phạt tiền
+    // Nghiệp vụ 3.2: Trả sách và tính tiền phạt tiền (Giữ nguyên gốc)
     public void returnBook(String slipId, LocalDate actualReturnDate) {
         for (BorrowSlip slip : borrowSlips) {
             if (slip.getSlipId().equals(slipId) && slip.getReturnDate() == null) {
@@ -61,7 +62,7 @@ public class Library {
         System.out.println("-> Không tìm thấy mã phiếu mượn chưa trả hợp lệ!");
     }
 
-    // Nghiệp vụ 3.4: Tìm kiếm sách theo tên hoặc tác giả (Không phân biệt hoa thường)
+    // Nghiệp vụ 3.4: Tìm kiếm sách theo tên hoặc tác giả (Giữ nguyên gốc)
     public void searchBooks(String keyword) {
         System.out.println("\n--- Kết quả tìm kiếm sách với từ khóa '" + keyword + "' ---");
         boolean found = false;
@@ -75,7 +76,7 @@ public class Library {
         if (!found) System.out.println("   Không tìm thấy cuốn sách nào.");
     }
 
-    // Nghiệp vụ 3.5: Liệt kê các phiếu mượn đang quá hạn
+    // Nghiệp vụ 3.5: Liệt kê các phiếu mượn đang quá hạn (Giữ nguyên gốc)
     public void listOverdueSlips(LocalDate currentDate) {
         System.out.println("\n--- Danh sách phiếu mượn ĐANG QUÁ HẠN (Tính đến ngày " + currentDate + ") ---");
         boolean hasOverdue = false;
@@ -87,5 +88,13 @@ public class Library {
             }
         }
         if (!hasOverdue) System.out.println("   Tuyệt vời! Không có phiếu mượn nào quá hạn.");
+    }
+
+    // Thêm hàm hiển thị danh sách độc giả để test tính đa hình (toString)
+    public void printAllReaders() {
+        System.out.println("\n--- Danh sách tất cả độc giả trong hệ thống ---");
+        for (Reader r : readers) {
+            System.out.println("   " + r.toString());
+        }
     }
 }

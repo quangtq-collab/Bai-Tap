@@ -10,13 +10,15 @@ public class Main {
         library.addBook(b1);
         library.addBook(b2);
 
-        // 2. Tạo dữ liệu mẫu Độc giả
-        Reader sv = new Reader("SV01", "Nguyen Khac Trong", "sv@gmail.com", ReaderType.SINH_VIEN);
-        Reader gv = new Reader("GV01", "Truong Minh Tuan", "gv@gmail.com", ReaderType.GIANG_VIEN);
+        // 2. Tạo dữ liệu mẫu Độc giả bằng Class kế thừa mới
+        Reader sv = new Reader("SV01", "Nguyen Khac Trong", "sv@gmail.com");
+        Reader gv = new Reader("GV01", "Truong Minh Tuan", "gv@gmail.com");
         library.addReader(sv);
         library.addReader(gv);
 
         System.out.println("=== HỆ THỐNG QUẢN LÝ THƯ VIỆN ===");
+        // Thử nghiệm in danh sách kiểm tra đa hình toString()
+        library.printAllReaders();
 
         // Thử nghiệm tìm kiếm sách (Nghiệp vụ 3.4)
         library.searchBooks("Cấu trúc");
@@ -36,7 +38,7 @@ public class Main {
 
         // 4. Kiểm tra phiếu quá hạn (Nghiệp vụ 3.5)
         // Giả sử hôm nay là ngày 19/05/2026 (Quá hạn trả ngày 10/05)
-        LocalDate checkDate = LocalDate.of(2026, 5, 19);
+        LocalDate checkDate = LocalDate.of(2026, 5, 19);;
         library.listOverdueSlips(checkDate);
 
         // 5. Thử nghiệm trả sách và phạt quá hạn (Nghiệp vụ 3.2)
