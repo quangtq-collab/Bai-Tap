@@ -1,0 +1,15 @@
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.AssemblyInfoInputs.cache
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.AssemblyInfo.cs
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.csproj.CoreCompileInputs.cache
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.sourcelink.json
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\bin\Debug\net10.0\PhanSoApp.exe
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\bin\Debug\net10.0\PhanSoApp.deps.json
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\bin\Debug\net10.0\PhanSoApp.runtimeconfig.json
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\bin\Debug\net10.0\PhanSoApp.dll
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\bin\Debug\net10.0\PhanSoApp.pdb
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.dll
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\refint\PhanSoApp.dll
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.pdb
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\PhanSoApp.genruntimeconfig.cache
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D1-Assignment\PhanSoApp\obj\Debug\net10.0\ref\PhanSoApp.dll
