@@ -1,0 +1,15 @@
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\bin\Debug\net10.0\OperatorApp.exe
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\bin\Debug\net10.0\OperatorApp.deps.json
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\bin\Debug\net10.0\OperatorApp.runtimeconfig.json
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\bin\Debug\net10.0\OperatorApp.dll
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\bin\Debug\net10.0\OperatorApp.pdb
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.AssemblyInfoInputs.cache
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.AssemblyInfo.cs
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.sourcelink.json
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.dll
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\refint\OperatorApp.dll
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.pdb
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\OperatorApp.genruntimeconfig.cache
+C:\Users\Alibaba-01\IdeaProjects\Bai-Tap\C4-D2-Assignment\OperatorApp\obj\Debug\net10.0\ref\OperatorApp.dll
